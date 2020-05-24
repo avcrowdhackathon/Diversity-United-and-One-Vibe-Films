@@ -1,0 +1,30 @@
+.footer { padding: 90px 0 0; background: $light-gray; bottom: 0; width: 100%; 
+	.btn-newsletter { padding: 0 5px; margin-top: 15px; }
+}
+.footer-info { background: $medium-gray; margin-top: 60px;
+	@include breakpoint(medium down) { 
+		.info { margin-bottom: 15px; }
+	}
+	@include breakpoint(large) {
+		.footer-content { display: flex; justify-content: space-between; align-items: center; 
+			.info { margin-right: 15px; }
+		}
+	}
+	.footer-content { font-size: 14px; text-align: center; padding: 20px 0; 
+		.info p { margin: 0; }
+	}
+	.footer-nav ul { margin: 0; margin-left: 15px;
+		li { list-style-type: none; display: inline-block; margin-left: 15px; position: relative;
+			&:first-of-type() { margin-left: 0; 
+				&:before { display: none; }
+			}
+			&:before { content: "/"; color: inherit; position: absolute; left: -12px; bottom: 0; }
+		}
+	}
+}
+
+.footer-row-wrapper {
+	@include breakpoint(small down) {
+		* { text-align: center !important; }
+	}
+}

@@ -1,0 +1,130 @@
+/**
+ *
+ * Veso Stylesheet
+ * by yosoftware
+ * https://themeforest.net/user/yosoftware
+ * 
+ * please do not edit directly in theme, for any adjustments we recomend using child theme
+ * https://codex.wordpress.org/Child_Themes
+ *
+ *  *
+ * 1. 	Foundation base styles
+ * 2. 	Global elements
+ * 3. 	Navbar styles
+ * 4. 	Blog template styles
+ * 5. 	Portfolio templates styles
+ * 6. 	WooCommerce styles
+ * 7.	Footer styles
+ * 8. 	WordPress Multilingual Plugin styles
+ * 9.	Magnific Popup styles
+ * 10.	Owl Carousel styles
+ * 11.	Swiper slider styles
+ * 12.	Google maps styles
+ * 13.  Full Pages styles
+  */
+
+/**
+ *
+ * 1. Foundation base styles
+ *
+ */
+
+@charset 'utf-8';
+
+@import 'settings';
+@import 'foundation/foundation';
+
+// Foundation global styles
+@include foundation-global-styles;
+
+// Individual foundation components
+@include foundation-flex-grid;
+@include foundation-typography;
+@include foundation-button;
+@include foundation-forms;
+@include foundation-button-group;
+@include foundation-close-button;
+@include foundation-menu-icon;
+@include foundation-responsive-embed;
+@include foundation-label;
+@include foundation-media-object;
+@include foundation-table;
+@include foundation-visibility-classes;
+@include foundation-float-classes;
+
+/**
+ *
+ * 2. Global elements
+ *
+ */
+@import 'elements';
+@import 'fullscreen-links';
+/**
+ *
+ * 3. Navbar styles
+ *
+ */
+@import 'navbar';
+/**
+ *
+ * 4. Blog template styles
+ *
+ */
+@import 'blog';
+/**
+ *
+ * 5. Portfolio templates styles
+ *
+ */
+@import 'portfolio';
+/**
+ *
+ * 6. WooCommerce styles
+ *
+ */
+@import 'shop';
+/**
+ *
+ * 7. Footer styles
+ *
+ */
+@import 'footer';
+/**
+ *
+ * 8. WordPress Multilingual Plugin styles
+ *
+ */
+@import 'wpml';
+/**
+ *
+ * 9. Magnific Popup styles
+ *
+ */
+@import 'magnific-popup';
+/**
+ *
+ * 10. Owl Carousel styles
+ *
+ */
+@import 'owl-carousel';
+/**
+ *
+ * 11. Swiper slider styles
+ *
+ */
+@import 'swiper';
+/**
+ *
+ * 12. Google maps styles
+ *
+ */
+@import 'gmap';
+/**
+ *
+ * 13. Full Pages styles
+ *
+ */
+@import 'full-page';
+
+// Icons libraries
+@import 'font-awesome/font-awesome.scss';

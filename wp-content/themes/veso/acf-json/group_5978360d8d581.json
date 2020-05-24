@@ -1,0 +1,132 @@
+{
+    "key": "group_5978360d8d581",
+    "title": "Portfolio Settings (for VC elements)",
+    "fields": [
+        {
+            "key": "field_597860c97b955",
+            "label": "Grid size",
+            "name": "veso_portfolio_grid_size",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "w1-h1": "Small square",
+                "w1-h2": "Tall rectangle",
+                "w2-h1": "Wide rectangle",
+                "w2-h2": "Large rectangle"
+            },
+            "default_value": [],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_5980261c54d7a",
+            "label": "Custom link",
+            "name": "veso_portfolio_custom_link",
+            "type": "url",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
+        },
+        {
+            "key": "field_597836bfa2e37",
+            "label": "Background color \/ Background color on hover",
+            "name": "veso_portfolio_bg",
+            "type": "color_picker",
+            "instructions": "Select background color to different colors on each portfolios (for 4th hover style) or slides for split slider element (Klin Split Slider).",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": ""
+        },
+        {
+            "key": "field_59785d8cfdc4b",
+            "label": "Text color \/ Color on hover",
+            "name": "veso_portfolio_color",
+            "type": "color_picker",
+            "instructions": "Select color for text on hover (4th hover style) or text for split slider element (Klin Split Slider).",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "#fff"
+        },
+        {
+            "key": "field_59ed8d104060d",
+            "label": "Image opacity",
+            "name": "veso_portfolio_image_opacity",
+            "type": "select",
+            "instructions": "Select opacity for image on split slider element (Klin Split Slider).",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "0.1": "0.1",
+                "0.2": "0.2",
+                "0.3": "0.3",
+                "0.4": "0.4",
+                "0.5": "0.5",
+                "0.6": "0.6",
+                "0.7": "0.7",
+                "0.8": "0.8",
+                "0.9": "0.9",
+                "1": "1"
+            },
+            "default_value": [
+                1
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "veso_portfolio"
+            }
+        ]
+    ],
+    "menu_order": 2,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "left",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1509023809
+}

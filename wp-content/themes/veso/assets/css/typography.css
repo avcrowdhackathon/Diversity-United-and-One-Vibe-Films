@@ -1,0 +1,44 @@
+body {
+	font-family: 'Nunito', Arial, Helvetica, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+.btn,
+.veso-header,
+.woocommerce ul.products li.product .price,
+.woocommerce .button,
+.woocommerce .product-title,
+.woocommerce .product-name,
+.woocommerce table.shop_table th,
+.single-product.woocommerce .amount,
+.veso-fullscreen-links-list .title {
+	font-family: 'Nunito', Arial, Helvetica, sans-serif;
+	font-weight: 800;
+	font-style: normal;
+	letter-spacing: 0px;
+}
+
+.mobile-nav-overlay .mobile-menu-content,
+.veso-nav a,
+.fixed-nav a {
+	font-family: 'Nunito', Arial, Helvetica, sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	letter-spacing: 0px;
+}
+
+.nav-top { box-shadow: 0 0 60px rgba(0, 0, 0, 0.04); }

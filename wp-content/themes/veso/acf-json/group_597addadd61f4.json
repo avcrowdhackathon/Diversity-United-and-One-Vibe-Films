@@ -1,0 +1,352 @@
+{
+    "key": "group_597addadd61f4",
+    "title": "Single Portfolio Settings",
+    "fields": [
+        {
+            "key": "field_59edc759acb11",
+            "label": "Select navigation",
+            "name": "veso_navigation",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "1": "Standard navigation - white",
+                "2": "Transparent - white text",
+                "3": "Transparent - dark text",
+                "4": "Standard navigation - dark",
+                "5": "Transparent - item lesft - white text"
+            },
+            "default_value": [],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_597addcb48a19",
+            "label": "Portfolio style",
+            "name": "veso_portfolio_style",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "large": "Large gallery",
+                "small": "Small gallery",
+                "fullwidth": "Fullwidth gallery",
+                "blank": "Blank"
+            },
+            "default_value": [
+                "small"
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_59783621009fd",
+            "label": "Add gallery",
+            "name": "veso_portfolio_gallery",
+            "type": "gallery",
+            "instructions": "Add images\/photos to portfolio. Make sure you upload images if you plan to use Slider type portfolio.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_597addcb48a19",
+                        "operator": "!=",
+                        "value": "blank"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "min": "",
+            "max": "",
+            "insert": "append",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_597aef09cb155",
+            "label": "Gallery view",
+            "name": "veso_portfolio_gallery_view",
+            "type": "select",
+            "instructions": "Make sure you upload images if you plan to use Slider type portfolio.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_597addcb48a19",
+                        "operator": "!=",
+                        "value": "blank"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "standard": "Images",
+                "slider": "Slider",
+                "grid": "Grid",
+                "masonry": "Masonry"
+            },
+            "default_value": [],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_59bb9bdbfc094",
+            "label": "Gallery position",
+            "name": "veso_portfolio_position",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_597addcb48a19",
+                        "operator": "==",
+                        "value": "large"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_597addcb48a19",
+                        "operator": "==",
+                        "value": "fullwidth"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "top": "Top",
+                "bottom": "Bottom"
+            },
+            "default_value": [],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_597adee87eb69",
+            "label": "Portfolio text",
+            "name": "veso_portfolio_text",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_597addcb48a19",
+                        "operator": "!=",
+                        "value": "blank"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        },
+        {
+            "key": "field_597ae1c1b0220",
+            "label": "Add attributes",
+            "name": "veso_portfolio_attribiutes",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_597addcb48a19",
+                        "operator": "!=",
+                        "value": "blank"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "Add Attribute",
+            "sub_fields": [
+                {
+                    "key": "field_597ae22ab0221",
+                    "label": "Attribute header",
+                    "name": "attr_header",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_597ae240b0222",
+                    "label": "Attribute content",
+                    "name": "attr_content",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "sm-textarea",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                }
+            ]
+        },
+        {
+            "key": "field_597ae4e396e47",
+            "label": "Back to page",
+            "name": "veso_portfolio_back_to_page",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_597addcb48a19",
+                        "operator": "!=",
+                        "value": "blank"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 1,
+            "max": 1,
+            "layout": "block",
+            "button_label": "Add link",
+            "sub_fields": [
+                {
+                    "key": "field_597ae52396e48",
+                    "label": "\"Back to page\" text",
+                    "name": "back_text",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_597ae3ac65641",
+                    "label": "Page link",
+                    "name": "link_page",
+                    "type": "page_link",
+                    "instructions": "Select page on \"back button\" click",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "post_type": [
+                        "page"
+                    ],
+                    "taxonomy": [],
+                    "allow_null": 0,
+                    "allow_archives": 1,
+                    "multiple": 0
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "veso_portfolio"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "left",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1508755313
+}

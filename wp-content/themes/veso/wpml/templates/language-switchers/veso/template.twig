@@ -1,0 +1,25 @@
+{% set current_language    = languages[ current_language_code ] %}
+{% set css_classes_flag    = ('wpml-ls-flag ' ~ backward_compatibility.css_classes_flag)|trim %}
+{% set css_classes_native  = ('wpml-ls-native ' ~ backward_compatibility.css_classes_native)|trim %}
+{% set css_classes_display = ('wpml-ls-display ' ~ backward_compatibility.css_classes_display)|trim %}
+{% set css_classes_bracket = ('wpml-ls-bracket ' ~ backward_compatibility.css_classes_bracket)|trim %}
+
+
+<li class="veso-wpml-switcher space-left menu-item-has-children">
+	<a href="#" class="{{ ('js-wpml-ls-item-toggle wpml-ls-item-toggle ' ~ current_language.backward_compatibility.css_classes_a)|trim }}">
+		{%- set current_language_name = current_language.display_name|default(current_language.native_name) -%}
+		<span class="{{ css_classes_native }}">{{ current_language.code }}</span>
+		<i class="fa fa-angle-down"></i>
+	</a>
+	<!-- <div class="subnav"> -->
+	<ul class="sub-menu">
+		{% for language in languages if not language.is_current %}
+
+			<li class="{{ language.css_classes }}">
+				<a href="{{ language.url }}">{{ language.native_name }}</a>
+			</li>
+
+		{% endfor %}
+	</ul>
+	<!-- </div> -->
+</li>

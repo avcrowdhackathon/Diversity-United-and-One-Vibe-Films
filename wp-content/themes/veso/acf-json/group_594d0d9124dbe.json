@@ -1,0 +1,1361 @@
+{
+    "key": "group_594d0d9124dbe",
+    "title": "Theme Settings",
+    "fields": [
+        {
+            "key": "field_595243ec2e804",
+            "label": "Global settings",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "left",
+            "endpoint": 0
+        },
+        {
+            "key": "field_59549d9c53faa",
+            "label": "Show page title",
+            "name": "veso_show_page_title",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_59c246508fe90",
+            "label": "Enable smooth scroll",
+            "name": "veso_smooth_scroll",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_595ceee59e613",
+            "label": "Newsletter API Key",
+            "name": "veso_newsletter_key",
+            "type": "text",
+            "instructions": "Mail Chimp API Key from <a href=\"https:\/\/mailchimp.com\/\">mailchimp.com<\/a>",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_595cdc8103564",
+            "label": "Google Maps API Key",
+            "name": "veso_google_maps_key",
+            "type": "text",
+            "instructions": "Google Maps API Key from <a href=\"https:\/\/developers.google.com\/maps\/documentation\/javascript\/get-api-key\" target=\"_blank\">here<\/a>",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_59eded8677e6f",
+            "label": "Custom CSS",
+            "name": "veso_custom_css",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
+        },
+        {
+            "key": "field_59eded8577e6e",
+            "label": "Custom JS",
+            "name": "veso_custom_js",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
+        },
+        {
+            "key": "field_59af9e905e7b0",
+            "label": "Colors",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "left",
+            "endpoint": 0
+        },
+        {
+            "key": "field_595f850564c3a",
+            "label": "Background color",
+            "name": "veso_background_color",
+            "type": "extended-color-picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "#fff"
+        },
+        {
+            "key": "field_595f851e64c3b",
+            "label": "Text color",
+            "name": "veso_text_color",
+            "type": "color_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "#333"
+        },
+        {
+            "key": "field_59ad5a6b683c9",
+            "label": "Accent color",
+            "name": "veso_accent_color",
+            "type": "color_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "#ffb573"
+        },
+        {
+            "key": "field_59af9eb05e7b1",
+            "label": "Button Color Style 1",
+            "name": "veso_button_dark_color",
+            "type": "repeater",
+            "instructions": "(default dark)",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 1,
+            "max": 1,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_59af9f2a5e7b2",
+                    "label": "Background color for solid button \/ Text color for outline & underline button",
+                    "name": "background_color",
+                    "type": "color_picker",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "#333"
+                },
+                {
+                    "key": "field_59af9f4a5e7b3",
+                    "label": "Text color for solid button",
+                    "name": "text_color",
+                    "type": "color_picker",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "#fff"
+                },
+                {
+                    "key": "field_59af9f995e7b4",
+                    "label": "Accent color",
+                    "name": "accent_color",
+                    "type": "color_picker",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "#ffb573"
+                }
+            ]
+        },
+        {
+            "key": "field_59afa0245e7b5",
+            "label": "Button Color Style 2",
+            "name": "veso_button_light_color",
+            "type": "repeater",
+            "instructions": "(default light)",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 1,
+            "max": 1,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_59afa0615e7b6",
+                    "label": "Background color for solid button \/ Text color for outline & underline button",
+                    "name": "background_color",
+                    "type": "color_picker",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "#fff"
+                },
+                {
+                    "key": "field_59afa07e5e7b7",
+                    "label": "Text color for solid button",
+                    "name": "text_color",
+                    "type": "color_picker",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "#333"
+                },
+                {
+                    "key": "field_59afa0935e7b8",
+                    "label": "Accent color",
+                    "name": "accent_color",
+                    "type": "color_picker",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "#ffb573"
+                }
+            ]
+        },
+        {
+            "key": "field_5953491172b87",
+            "label": "Navigation versions",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "left",
+            "endpoint": 0
+        },
+        {
+            "key": "field_594d0f0baedfa",
+            "label": "Navigation bars",
+            "name": "veso_navigation_bars",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "row",
+            "button_label": "Add navigation bar",
+            "sub_fields": [
+                {
+                    "key": "field_594d0f40aedfb",
+                    "label": "Navigation name",
+                    "name": "navigation_name",
+                    "type": "text",
+                    "instructions": "This will not be displayed on front.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "Standard navigation",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_594d0f62aedfc",
+                    "label": "Navigation type",
+                    "name": "type",
+                    "type": "select",
+                    "instructions": "This settings changes how elements inside navigation bar are positioned.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "nav-left": "Logo left, items left",
+                        "nav-right": "Logo left, items right",
+                        "nav-center": "centered items",
+                        "nav-burger": "Logo left, items in burger nav"
+                    },
+                    "default_value": [],
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 0,
+                    "ajax": 0,
+                    "return_format": "value",
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_594d111faedfd",
+                    "label": "Logo",
+                    "name": "logo",
+                    "type": "image",
+                    "instructions": "Upload your logo.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "array",
+                    "preview_size": "medium",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": ""
+                },
+                {
+                    "key": "field_594d163e8c111",
+                    "label": "Background type",
+                    "name": "background_type",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "color": "Background color",
+                        "image": "Background image",
+                        "pattern": "Background pattern"
+                    },
+                    "default_value": [],
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 0,
+                    "ajax": 0,
+                    "return_format": "value",
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_594d113baedfe",
+                    "label": "Background color",
+                    "name": "background_color",
+                    "type": "extended-color-picker",
+                    "instructions": "Set background color and opacity of navigation bar",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_594d163e8c111",
+                                "operator": "==",
+                                "value": "color"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "#fff"
+                },
+                {
+                    "key": "field_594d178a8c112",
+                    "label": "Background image",
+                    "name": "background_image",
+                    "type": "image",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_594d163e8c111",
+                                "operator": "==",
+                                "value": "image"
+                            }
+                        ],
+                        [
+                            {
+                                "field": "field_594d163e8c111",
+                                "operator": "==",
+                                "value": "pattern"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "array",
+                    "preview_size": "medium",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": ""
+                },
+                {
+                    "key": "field_594d1161aedff",
+                    "label": "Show content under navigation",
+                    "name": "position",
+                    "type": "true_false",
+                    "instructions": "Enable if you want to use transparent or semi-transparent navigation bar",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": 0,
+                    "message": "",
+                    "ui": 1,
+                    "ui_on_text": "",
+                    "ui_off_text": ""
+                },
+                {
+                    "key": "field_59f2d1cd8bfb7",
+                    "label": "Custom text",
+                    "name": "custom_text",
+                    "type": "wysiwyg",
+                    "instructions": "Add short text to burger navigation",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_594d0f62aedfc",
+                                "operator": "==",
+                                "value": "nav-burger"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "tabs": "all",
+                    "toolbar": "full",
+                    "media_upload": 1,
+                    "delay": 0
+                },
+                {
+                    "key": "field_59f2deed9162e",
+                    "label": "Social profiles",
+                    "name": "additional_nav",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_594d0f62aedfc",
+                                "operator": "==",
+                                "value": "nav-burger"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "top_nav": "show in top nav",
+                        "burger_nav": "show in burger nav"
+                    },
+                    "default_value": [],
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 0,
+                    "ajax": 0,
+                    "return_format": "value",
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_594d118eaee00",
+                    "label": "Link colors",
+                    "name": "link_colors",
+                    "type": "extended-color-picker",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "#333"
+                },
+                {
+                    "key": "field_594d11d5aee01",
+                    "label": "Dropdown background color",
+                    "name": "dropdown_bg_color",
+                    "type": "extended-color-picker",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_594d0f62aedfc",
+                                "operator": "!=",
+                                "value": "nav-burger"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "#fff"
+                },
+                {
+                    "key": "field_594d11f7aee02",
+                    "label": "Dropdown items color",
+                    "name": "dropdown_items_color",
+                    "type": "extended-color-picker",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_594d0f62aedfc",
+                                "operator": "!=",
+                                "value": "nav-burger"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "#333"
+                }
+            ]
+        },
+        {
+            "key": "field_594d0da0aedf5",
+            "label": "Navigation settings",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_594d0dcbaedf6",
+            "label": "Height",
+            "name": "veso_navigation_height",
+            "type": "number",
+            "instructions": "Enter navigation height in pixels.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 100,
+            "placeholder": "",
+            "prepend": "",
+            "append": "px",
+            "min": "",
+            "max": "",
+            "step": ""
+        },
+        {
+            "key": "field_594d0e05aedf7",
+            "label": "Logo padding",
+            "name": "veso_navigation_logo_padding",
+            "type": "number",
+            "instructions": "Enter top and bottom padding for logo (in pixels).",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 20,
+            "placeholder": "",
+            "prepend": "",
+            "append": "px",
+            "min": "",
+            "max": "",
+            "step": ""
+        },
+        {
+            "key": "field_59f71d4fcbb8d",
+            "label": "Background color for off canvas",
+            "name": "veso_bg_off_canvas",
+            "type": "extended-color-picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "#fff"
+        },
+        {
+            "key": "field_59f71e07cbb8e",
+            "label": "Text color for off canvas",
+            "name": "veso_color_off_canvas",
+            "type": "color_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "#333"
+        },
+        {
+            "key": "field_5951f7693ab5e",
+            "label": "Fixed navigation settings",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5951f7973ab5f",
+            "label": "Show fixed navigation",
+            "name": "veso_navigation_fixed",
+            "type": "true_false",
+            "instructions": "Enable if you want to show fixed navigation on scroll",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 1,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5951f8073ab60",
+            "label": "Logo",
+            "name": "veso_navigation_fixed_logo",
+            "type": "image",
+            "instructions": "Upload or select logo for fixed navigation",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5951f7973ab5f",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_5965e9d39e28e",
+            "label": "Logo padding",
+            "name": "veso_navigation_fixed_logo_padding",
+            "type": "number",
+            "instructions": "Enter top and bottom padding for logo (in pixels).",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 20,
+            "placeholder": "",
+            "prepend": "",
+            "append": "px",
+            "min": "",
+            "max": "",
+            "step": ""
+        },
+        {
+            "key": "field_5951f83f3ab61",
+            "label": "Height",
+            "name": "veso_navigation_fixed_height",
+            "type": "number",
+            "instructions": "Insert height in px of fixed navigation",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5951f7973ab5f",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 80,
+            "placeholder": "",
+            "prepend": "",
+            "append": "px",
+            "min": "",
+            "max": "",
+            "step": ""
+        },
+        {
+            "key": "field_5951f88e3ab63",
+            "label": "Background color",
+            "name": "veso_navigation_fixed_bg",
+            "type": "extended-color-picker",
+            "instructions": "Set background color and opacity of fixed navigation",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5951f7973ab5f",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "#fff"
+        },
+        {
+            "key": "field_5951f8ff3ab64",
+            "label": "Links",
+            "name": "veso_navigation_fixed_color",
+            "type": "color_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5951f7973ab5f",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "#333"
+        },
+        {
+            "key": "field_5951f93b3ab65",
+            "label": "Dropdown background color",
+            "name": "veso_navigation_fixed_dropdown_bg",
+            "type": "extended-color-picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5951f7973ab5f",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "#fff"
+        },
+        {
+            "key": "field_5951f9773ab66",
+            "label": "Dropdown items color",
+            "name": "veso_navigation_fixed_dropdown_color",
+            "type": "color_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5951f7973ab5f",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "#333"
+        },
+        {
+            "key": "field_595cddc010081",
+            "label": "Blog Settings",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "left",
+            "endpoint": 0
+        },
+        {
+            "key": "field_595cddc910082",
+            "label": "Single post sidebar",
+            "name": "veso_single_post_sidebar",
+            "type": "true_false",
+            "instructions": "Show sidebar on single posts",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 1,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_595cde5210083",
+            "label": "Archive sidebar",
+            "name": "veso_archive_sidebar",
+            "type": "true_false",
+            "instructions": "Show sidebar on archive page",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 1,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_59edc7a2d1c40",
+            "label": "Portfolio",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_59edc880083c2",
+            "label": "Portfolio permalinks",
+            "name": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "Please save permalinks (Settings > Permalinks > Save changes) after change.",
+            "new_lines": "wpautop",
+            "esc_html": 0
+        },
+        {
+            "key": "field_59edc7b0d1c41",
+            "label": "Portfolio item custom slug",
+            "name": "veso_portfolio_slug",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_59edc823d1c42",
+            "label": "Portfolio category custom slug",
+            "name": "veso_portfolio_category_slug",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_59edc856d1c43",
+            "label": "Portfolio tag custom slug",
+            "name": "veso_portfolio_tag_slug",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_595106d15349b",
+            "label": "Social Shares\/Profiles",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5951079c5349c",
+            "label": "Enable share to",
+            "name": "veso_social_shares",
+            "type": "checkbox",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "facebook": "Facebook",
+                "twitter": "Twitter",
+                "google_plus": "Google+",
+                "tumblr": "Tumblr",
+                "pinterest": "Pinterest"
+            },
+            "allow_custom": 0,
+            "save_custom": 0,
+            "default_value": [
+                "facebook",
+                "twitter",
+                "google_plus",
+                "tumblr",
+                "pinterest"
+            ],
+            "layout": "vertical",
+            "toggle": 0,
+            "return_format": "value"
+        },
+        {
+            "key": "field_5951081f5349d",
+            "label": "Social profiles",
+            "name": "veso_navigation_social_profiles",
+            "type": "true_false",
+            "instructions": "Select \"Yes\" if you want to show social profiles at the right side of navigation.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_595108e45349e",
+            "label": "Add social profile",
+            "name": "veso_navigation_social_profiles_list",
+            "type": "repeater",
+            "instructions": "Visit FontAwesome site (<a href=\"http:\/\/fontawesome.io\/icons\/#brand\">link here<\/a>) and enter icon name\/class with prefix \"fa-\". For example: \"fa-star\".",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5951081f5349d",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "row",
+            "button_label": "Add profile",
+            "sub_fields": [
+                {
+                    "key": "field_59510a155349f",
+                    "label": "Social profile name",
+                    "name": "social_profile_class",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "fa-facebook",
+                    "maxlength": "",
+                    "placeholder": "fa-icon-name",
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_59510a58534a0",
+                    "label": "Social profile url",
+                    "name": "social_profile_url",
+                    "type": "url",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_59a93c7ce203d",
+                    "label": "Hover icon color",
+                    "name": "social_icon_hover_color",
+                    "type": "extended-color-picker",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": ""
+                }
+            ]
+        },
+        {
+            "key": "field_595e15166f8b4",
+            "label": "Footer",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "left",
+            "endpoint": 0
+        },
+        {
+            "key": "field_595e15226f8b5",
+            "label": "Enable footer",
+            "name": "veso_enable_footer",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 1,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_595e15bf6f8b6",
+            "label": "Select default footer",
+            "name": "veso_default_footer",
+            "type": "post_object",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_595e15226f8b5",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_596ca234e5fd0",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "veso_footer"
+            ],
+            "taxonomy": [],
+            "allow_null": 0,
+            "multiple": 0,
+            "return_format": "object",
+            "ui": 1
+        },
+        {
+            "key": "field_595e16f96f8b7",
+            "label": "Show \"back to top\" arrow",
+            "name": "veso_back_top",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 1,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "acf-options"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "left",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1509367528
+}

@@ -1,0 +1,12 @@
+.reorder-category-wrapper { max-width: 800px; }
+.reorder-category .ui-state-default { background: rgb(255, 255, 255); padding: 10px 30px !important; font-size: 14px; cursor: move; }
+.reorder-category-wrapper button { float: right; margin-top: 30px !important; }
+
+.acf-field ::-webkit-input-placeholder { color: #d0d0d0; }
+.acf-field ::-moz-input-placeholder { color: #d0d0d0; }
+.acf-field -ms-input-placeholder { color: #d0d0d0; }
+.acf-field -moz-input-placeholder { color: #d0d0d0; }
+
+.hide-add-media #wp-content-media-buttons { display: none !important; }
+.theme_option_subnav { text-align: right; background: #23282d; color: #fff; }
+.theme_option_subnav a { color: #fff; text-decoration: none; margin-left: 15px; }
